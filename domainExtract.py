@@ -16,7 +16,7 @@ lines = file.readlines()
 newFileName = input('Name of new list: ')
 newList = open("C:\\PATH\\TO\\NEW\\FILE\\HERE\\{}.txt".format(newFileName), 'a')
 
-# Extraceted domains are held in this list before being written to the new file
+# Extracted domains are held in this list before being written to the new file
 toBeWritten = []
 
 # Regex to pull domains
