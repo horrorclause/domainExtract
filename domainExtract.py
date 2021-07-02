@@ -14,7 +14,7 @@ lines = file.readlines()
 
 # File you want to export extracted domains to
 newFileName = input('Name of new list: ')
-newList = open("C:\\PATH\\TO\\NEW\\FILE\\HERE\\List of Domains\\{}.txt".format(newFileName), 'a')
+newList = open("C:\\PATH\\TO\\NEW\\FILE\\HERE\\{}.txt".format(newFileName), 'a')
 
 # Extraceted domains are held in this list before being written to the new file
 toBeWritten = []
