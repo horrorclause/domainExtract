@@ -42,3 +42,5 @@ for x in toBeWritten:
 
 newList.close()
 file.close()
+
+print("{=} Process has completed.")
