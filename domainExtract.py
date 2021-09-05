@@ -22,7 +22,7 @@ toBeWritten = []
 # Regex to pull domains
 try:
     for i in lines:
-        found = re.findall(r'(?:[\w+-]+\w+\.\w+)', i)
+        found = re.findall(r'(?:[\w+-]+\w+\.\w+[\.\w+]+)', i)
 
         if not found:
             pass
