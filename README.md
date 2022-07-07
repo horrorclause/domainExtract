@@ -1,4 +1,4 @@
-# domainExtract
+# domainExtract #
 Extract domains from a block of text using regex, and exports them to a clean file that is ready to be used as input.
 the "file" variable is for the input list of text, and the "newList" variable is the output, a clean file of only extracted domains.
 
@@ -18,7 +18,8 @@ The examples below show the input file with domains that have TLDs, SLDs, and TL
 
 The "newFileName" variable will prompt you to name your new output file once the script is run, and the "newList" variable is used to set the location the newly extracted domain list will be saved to. 
 
-**ONLY MODIFY THE PATH:** 
+### ONLY MODIFY THE PATH: ###
+
 ![image](https://user-images.githubusercontent.com/10188810/132139056-da51063a-36d2-4af0-be79-ce1be8cf4c2f.png)
 
 
@@ -27,6 +28,9 @@ The "newFileName" variable will prompt you to name your new output file once the
 
 
 Here is an example of the new list name prompt when the script is run:
+
+
+
 ![image](https://user-images.githubusercontent.com/10188810/132139164-854d6d66-b3cc-4712-a3cd-84490ac4ee5e.png)
 
 Here is the output, which show the extracted domains with the TLDs, extra nodes, and SLDs:
