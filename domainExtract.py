@@ -9,12 +9,13 @@ Extract domains from text, and export them to a clean file.
 """
 
 # File you want to extract domains from
-file = open('C:\\YOUR\\PATH\\HERE\\samplesites.txt', 'r', errors='ignore')
+file = open(input("Enter Path Here: "), 'r', errors='ignore')
 lines = file.readlines()
 
 # File you want to export extracted domains to
 newFileName = input('Name of new list: ')
-newList = open("C:\\PATH\\TO\\NEW\\FILE\\HERE\\{}.txt".format(newFileName), 'a')
+newListPath = input("Enter Destination Path: ")
+newList = open(f"{newListPath}{newFileName}.txt", 'a')
 
 # Extracted domains are held in this list before being written to the new file
 toBeWritten = []
